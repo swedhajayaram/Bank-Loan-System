@@ -1,0 +1,98 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:greenyellow;
+}
+
+.auth-card{
+width:350px;
+margin:100px auto;
+background:purple;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+input,button{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:8px;
+border:none;
+}
+
+button{
+background:#003366;
+color:white;
+cursor:pointer;
+}
+
+.top-header{
+background:#003366;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+height: 5vh;
+}
+
+.top-header a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.layout{
+display:flex;
+}
+
+.sidebar{
+width:220px;
+background:#0a2540;
+height:calc(125vh - 60px);
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#004e92;
+}
+
+.content{
+flex:1;
+padding:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card-box{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+cursor:pointer;
+}
+
+.card-box button{
+margin-top:10px;
+padding:10px;
+border-radius:8px;
+border:none;
+background:#003366;
+color:white;
+cursor:pointer;
+}
+
+.card-box button:hover{
+background:#004e92;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login | Secure Bank</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-header">
+<div class="logo">🏦 Secure Bank</div>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="policy.html">Policy</a>
+</nav>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+<a href="index.html">Register</a>
+<a href="login.html">Login</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="#" onclick="logout()">Logout</a>
+</aside>
+
+<div class="auth-card">
+<h2>Bank Login</h2>
+
+<input type="email" id="loginEmail" placeholder="Email">
+<input type="password" id="loginPassword" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<p><a href="index.html">New User? Register</a></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+

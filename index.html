@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register | Secure Bank</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-header">
+<div class="logo">🏦 Secure Bank</div>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="policy.html">Policy</a>
+</nav>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+<a href="index.html">Register</a>
+<a href="login.html">Login</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="#" onclick="logout()">Logout</a>
+</aside>
+
+<div class="auth-card">
+<h2>Create Bank Account</h2>
+
+<input type="text" id="name" placeholder="Full Name">
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Password">
+
+<button onclick="register()">Register</button>
+
+<p>Already have an account?
+<a href="login.html">Login</a></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+

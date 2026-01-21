@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-header">
+<div class="logo">🏦 Secure Bank</div>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="policy.html">Policy</a>
+</nav>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+<a href="index.html">Register</a>
+<a href="login.html">Login</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="#" onclick="logout()">Logout</a>
+</aside>
+
+<main class="content">
+<h2>Loan Dashboard</h2>
+
+<div class="cards">
+
+<div class="card-box">
+<h3>🏠 Home Loan</h3>
+<p>₹5,00,000 – ₹50,00,000</p>
+<button onclick="applyLoan('Home Loan')">Apply Now</button>
+</div>
+
+<div class="card-box">
+<h3>🚗 Vehicle Loan</h3>
+<p>₹1,00,000 – ₹15,00,000</p>
+<button onclick="applyLoan('Vehicle Loan')">Apply Now</button>
+</div>
+
+<div class="card-box">
+<h3>🎓 Education Loan</h3>
+<p>₹50,000 – ₹20,00,000</p>
+<button onclick="applyLoan('Education Loan')">Apply Now</button>
+</div>
+
+<div class="card-box">
+<h3>💼 Personal Loan</h3>
+<p>₹25,000 – ₹10,00,000</p>
+<button onclick="applyLoan('Personal Loan')">Apply Now</button>
+</div>
+
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
